@@ -49,7 +49,6 @@ body{
  Player Section Style 
  -----------------------------*/
  .players-section{
-     background-color: #f7f7f7;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -82,3 +81,37 @@ body{
      font-size: 16px;
      color: #6C6C6C;
  }
+ /*---------------------------------
+  Footer section Style
+  --------------------------------- */
+  
+  .footer-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+  }
+  .footer-elements {
+      width: 300px;
+  }
+  .footer-elements img {
+      width: 100%;
+  }
+  .social-icon {
+      text-align: center;
+      font-size: 16px;
+      color: gray;
+      font-weight: 700;
+  }
+  .icon-bg {
+    background: #ced2e0;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 7px;
+    margin-right: 7px;
+  }
+  .footer-elements p {
+      text-align: center;
+      font-size: 18px;
+  }
